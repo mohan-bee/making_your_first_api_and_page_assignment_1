@@ -1,6 +1,7 @@
 # **README for Virtual Assistant API**
 
 ## **Introduction**
+
 The **Virtual Assistant API** is designed to provide users with personalized responses based on their input and the day of the week. This API acts as the foundation for a virtual assistant app, delivering a **friendly greeting** and a **cheerful message** to enhance the user's experience.
 
 ---
@@ -8,13 +9,17 @@ The **Virtual Assistant API** is designed to provide users with personalized res
 ## **API Details**
 
 ### **Endpoint**
+
 **GET** `/assistant/greet?name=<user_name>`
 
 ### **Request Parameters**
+
 - **name (required)**: The user's name, sent as a query parameter.
 
 ### **Response Format**
+
 A **JSON object** containing:
+
 1. A **personalized welcome message** using the provided name.
 2. A **cheerful message** depending on the current day of the week.
 
@@ -23,6 +28,7 @@ A **JSON object** containing:
 ## **Responses**
 
 ### **For Monday:**
+
 ```json
 {
   "welcomeMessage": "Hello, John! Welcome to our assistant app!",
@@ -31,6 +37,7 @@ A **JSON object** containing:
 ```
 
 ### **For Friday:**
+
 ```json
 {
   "welcomeMessage": "Hello, John! Welcome to our assistant app!",
@@ -39,6 +46,7 @@ A **JSON object** containing:
 ```
 
 ### **For Other Days:**
+
 ```json
 {
   "welcomeMessage": "Hello, John! Welcome to our assistant app!",
@@ -51,10 +59,12 @@ A **JSON object** containing:
 ## **How to Fork and Set Up Your Repository**
 
 ### **1. Fork the Repository**
+
 - Go to the repository on GitHub and click the **Fork** button at the top right of the page.  
   This will create a copy of the repository in your own GitHub account.
 
 ### **2. Clone the Repository**
+
 - Once the repository is forked, click the **Clone** button and copy the link (HTTPS or SSH).
 - Open your terminal/command prompt and run:
   ```bash
@@ -63,6 +73,7 @@ A **JSON object** containing:
   Replace `<repository_url>` with the link you copied from your GitHub.
 
 ### **3. Install Dependencies**
+
 - Navigate to the cloned directory:
   ```bash
   cd <repository_folder>
@@ -75,6 +86,7 @@ A **JSON object** containing:
 ---
 
 ## **Submission Instructions**
+
 1. After completing the task, commit and push your changes to your GitHub repository:
    ```bash
    git add .
@@ -88,8 +100,8 @@ A **JSON object** containing:
 ---
 
 ### **Example Submission**
+
 If your GitHub username is `johnDoe` and your repository is named `virtual-assistant-api`, the submission link would be:  
 **`https://github.com/johnDoe/virtual-assistant-api`**
 
 ---
-
